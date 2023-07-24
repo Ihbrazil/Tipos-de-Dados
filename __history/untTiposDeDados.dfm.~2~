@@ -1,0 +1,66 @@
+object frmTiposDeDados: TfrmTiposDeDados
+  Left = 0
+  Top = 0
+  Caption = 'Tipos de dados'
+  ClientHeight = 442
+  ClientWidth = 628
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object lblAbono: TLabel
+    Left = 112
+    Top = 136
+    Width = 49
+    Height = 15
+    Caption = 'lblAbono'
+  end
+  object lblIcmsTotal: TLabel
+    Left = 424
+    Top = 136
+    Width = 63
+    Height = 15
+    Caption = 'lblIcmsTotal'
+  end
+  object lblIcmsSomaProdutos: TLabel
+    Left = 424
+    Top = 184
+    Width = 116
+    Height = 15
+    Caption = 'lblIcmsSomaProdutos'
+  end
+  object lblConfere: TLabel
+    Left = 424
+    Top = 224
+    Width = 55
+    Height = 15
+    Caption = 'lblConfere'
+  end
+  object lblLetras: TLabel
+    Left = 424
+    Top = 264
+    Width = 44
+    Height = 15
+    Caption = 'lblLetras'
+  end
+  object btnCalculaAbono: TButton
+    Left = 112
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'Abono'
+    TabOrder = 0
+    OnClick = btnCalculaAbonoClick
+  end
+  object btnCalculaICMS: TButton
+    Left = 424
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'ICMS'
+    TabOrder = 1
+  end
+end
